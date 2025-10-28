@@ -39,8 +39,30 @@ int main() {
         r++;
     } while (r <= 8);
 
+    
+    printf("\n"); // Espaço entre as peças
+
+    // ---------- CAVALO ----------
+    
+    // Mover o cavalo 2 para cima e 1 para direita
+
+    printf("Cavalo:\n");
+    int MovimentoCompleto = 1; //Controlar movimento em "L"
+
+    while (MovimentoCompleto--)
+    {
+        for (int i = 0; i < 2; i++){
+            printf("CIma\n"); // imprimir "cima" 2 vezes
+            }
+            printf("Direita\n"); // imprimir "Direita" 1 vez
+    }
+    
+
+
     // Fim do programa
+
     return 0;
 }
+
 
 
